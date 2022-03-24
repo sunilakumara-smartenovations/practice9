@@ -1,4 +1,10 @@
-gbdf gdfvg
- gf fgfdgb
+from xmlrpc.client import boolean
 
-i want to see third commint
+
+def addnum (a,b):
+    if type(a) == type(b) == type(1):
+        return a+b
+    else:
+        return ("sorry!, enter integer number")
+result = addnum(5,5)
+print(result)    
